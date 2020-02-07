@@ -1,0 +1,33 @@
+/* Input styles */
+
+html, * {
+    box-sizing: border-box;
+}
+
+.top {
+    text-align: center;
+}
+
+.the-input {
+    font-size: 1rem;
+    width: 33.3333%;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: solid 2px #eee;
+    padding: 15px;
+    color: #eee;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.container img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
