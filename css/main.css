@@ -8,14 +8,17 @@ html, * {
     text-align: center;
 }
 
-.the-input {
+.main-input {
     font-size: 1rem;
     width: 33.3333%;
     margin-top: 30px;
     border-radius: 5px;
     border: solid 2px #eee;
     padding: 15px;
-    color: #eee;
+}
+
+::placeholder {
+    color: #ccc;
 }
 
 .container {
