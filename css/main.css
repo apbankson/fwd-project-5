@@ -1,16 +1,17 @@
-/* Input styles */
+
 
 html, * {
     box-sizing: border-box;
 }
-
+/* Input styles */
 .top {
     text-align: center;
 }
 
+
 .main-input {
     font-size: 1rem;
-    width: 33.3333%;
+    width: 66.6666666%;
     margin-top: 30px;
     border-radius: 5px;
     border: solid 2px #eee;
@@ -21,18 +22,19 @@ html, * {
     color: #ccc;
 }
 
+/*Container and image styles*/
 .container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0 200px;
+    justify-content: space-around;
+    padding: 0 125px;
 }
 
 .container img {
     height: 200px;
     width: 200px;
     margin: 30px;
+    flex-basis: 25%;
 }
 
 .lb-data .lb-details {
@@ -42,4 +44,19 @@ html, * {
 .lb-data .lb-caption {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
+}
+
+.hide {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 150px;
+    }
+
+    .main-input {
+        width: 50%;
+        max-width: 690px;
+    }
 }
